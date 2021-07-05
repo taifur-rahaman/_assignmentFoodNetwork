@@ -62,3 +62,57 @@ body {
 }
 
 /* header section end */
+
+/* about me section start */
+#about_me {
+  display: flex;
+  background-image: url(images/shapes/7.png);
+  background-repeat: no-repeat;
+}
+
+.about_pic,
+.about_text {
+  width: 50%;
+}
+
+.person {
+  height: 33%;
+  margin-top: 50px;
+  margin-left: 200px;
+}
+
+.about_text {
+  margin-top: 80px;
+}
+
+.about_title {
+  margin-bottom: 0;
+  font-size: 50px;
+  text-transform: capitalize;
+  font-family: "Poppins", sans-serif;
+  color: rgb(87, 87, 87);
+}
+
+.about_paragraph {
+  color: rgb(87, 87, 87);
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  margin-right: 200px;
+  margin-bottom: 100px;
+}
+.about_button {
+  text-decoration: none;
+  padding: 20px 40px;
+
+  background-image: linear-gradient(
+    to right,
+    rgb(251, 142, 73),
+    rgb(254, 77, 48)
+  );
+  border-radius: 40px;
+  color: white;
+  text-transform: capitalize;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+}
+/* about me section end */
