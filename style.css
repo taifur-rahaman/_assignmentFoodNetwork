@@ -1,0 +1,64 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+/* header section start */
+
+#header {
+  display: flex;
+}
+
+.header_text,
+.header_pic {
+  width: 50%;
+}
+
+.header_pic {
+  margin-right: 100px;
+  margin-top: 30px;
+}
+
+.header_text {
+  margin-top: 200px;
+  margin-left: 120px;
+}
+
+.header_title {
+  margin-bottom: 0;
+  font-size: 50px;
+  text-transform: capitalize;
+  font-family: "Poppins", sans-serif;
+  color: rgb(87, 87, 87);
+}
+
+.header_title span {
+  color: rgb(252, 152, 76);
+}
+
+.header_paragraph {
+  color: rgb(87, 87, 87);
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  margin-bottom: 50px;
+}
+
+.header_button {
+  text-decoration: none;
+  padding: 20px 40px;
+
+  background-image: linear-gradient(
+    to right,
+    rgb(251, 142, 73),
+    rgb(254, 77, 48)
+  );
+  border-radius: 40px;
+  color: white;
+  text-transform: capitalize;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+}
+
+/* header section end */
