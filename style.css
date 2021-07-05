@@ -148,7 +148,7 @@ body {
   width: 25%;
   border: 15px solid white;
   margin: 10px 20px;
-  box-shadow: 0px 0px 16px -2px rgba(0, 0, 0, 0.45);
+  box-shadow: 0px 0px 16px -2px rgba(0, 0, 0, 0.25);
   border-radius: 30px;
   font-family: "Poppins", sans-serif;
 }
@@ -158,5 +158,27 @@ body {
   font-family: "Montserrat", sans-serif;
   font-weight: 400;
 }
-
 /* my recipies section end */
+
+/* subscriber section start */
+#subscriber {
+  display: flex;
+  width: 86vw;
+  height: 20vh;
+  margin: 70px auto;
+  justify-content: space-around;
+  align-items: center;
+  box-shadow: 0px 0px 16px -2px rgba(0, 0, 0, 0.25);
+  border-radius: 20px;
+  line-height: 15px;
+}
+
+.subs_title {
+  font-family: "Montserrat", sans-serif;
+}
+.subs_paragraph {
+  color: rgb(87, 87, 87);
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+}
+/* subscriber section end */
