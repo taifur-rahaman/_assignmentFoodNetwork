@@ -73,11 +73,12 @@ body {
 .about_pic,
 .about_text {
   width: 50%;
+  height: 70vh;
 }
 
 .person {
-  height: 33%;
-  margin-top: 50px;
+  height: 100%;
+  margin-top: 68px;
   margin-left: 200px;
 }
 
